@@ -19,6 +19,4 @@ document.querySelector(
 
 document.querySelector(".basket__btn").classList.add(color)
 document.querySelector(".basket").classList.add(color);
-// document.querySelector(
-//   ".basket"
-// ).style.backgroundImage = `url(./svg/oval-${color}-big.svg), url(./svg/oval-${color}-big.svg)`;
+document.querySelector("body").classList.add(color);
