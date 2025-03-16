@@ -334,7 +334,6 @@ button {
 }
 
 .basket__result {
-  text-transform: capitalize;
   color: var(--brown);
   font-size: 28px;
   margin: 0 auto;
