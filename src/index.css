@@ -195,8 +195,22 @@ button {
 .header__link {
 }
 
+.header__logo {
+  width: 200px;
+  height: 119px;
+  background-image: url(./svg/logo.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .header__icon {
-  fill: var(--brown);
+  width: 776px;
+  height: 64px;
+  background-image: url(./svg/wave.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header__btn {
@@ -262,23 +276,29 @@ button {
   position: absolute;
   top: 60px;
   right: 220px;
+  width: 26px;
+  height: 24px;
+  background-image: url(./svg/close.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.basket__btn.red:hover .basket__dagger {
-  fill: var(--red);
+.basket__btn.red:hover{
+  background-image: url(./svg/close-red.svg);
 }
 
-.basket__btn.blue:hover .basket__dagger {
-  fill: var(--blue);
+.basket__btn.blue:hover{
+  background-image: url(./svg/close-blue.svg);
 }
 
-.basket__btn.green:hover .basket__dagger {
-  fill: var(--green);
+.basket__btn.green:hover{
+  background-image: url(./svg/close-green.svg);
 }
 
-.basket__dagger {
+/* .basket__dagger {
   fill: var(--brown);
-}
+} */
 
 .basket__title {
   color: var(--brown);
