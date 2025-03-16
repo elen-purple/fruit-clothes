@@ -189,8 +189,22 @@ button {
   display: flex;
 }
 
+.header__logo {
+  background-image: url("logo.8833065f.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 119px;
+}
+
 .header__icon {
-  fill: var(--brown);
+  background-image: url("wave.90b61c02.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 776px;
+  height: 64px;
 }
 
 .header__btn {
@@ -253,26 +267,28 @@ button {
 }
 
 .basket__btn {
+  background-image: url("close.af67cf98.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 26px;
+  height: 24px;
   line-height: 0;
   position: absolute;
   top: 60px;
   right: 220px;
 }
 
-.basket__btn.red:hover .basket__dagger {
-  fill: var(--red);
+.basket__btn.red:hover {
+  background-image: url("close-red.e7a3a6db.svg");
 }
 
-.basket__btn.blue:hover .basket__dagger {
-  fill: var(--blue);
+.basket__btn.blue:hover {
+  background-image: url("close-blue.d3bec7af.svg");
 }
 
-.basket__btn.green:hover .basket__dagger {
-  fill: var(--green);
-}
-
-.basket__dagger {
-  fill: var(--brown);
+.basket__btn.green:hover {
+  background-image: url("close-green.3dec18f8.svg");
 }
 
 .basket__title {
