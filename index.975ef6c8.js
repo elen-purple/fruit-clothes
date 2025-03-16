@@ -11939,9 +11939,8 @@ switch(Math.round(Math.random() * 2 + 1)){
 }
 document.querySelector(".header__btn").style.backgroundColor = `var(--${color})`;
 document.querySelector(".basket__btn").classList.add(color);
-document.querySelector(".basket").classList.add(color); // document.querySelector(
- //   ".basket"
- // ).style.backgroundImage = `url(./svg/oval-${color}-big.svg), url(./svg/oval-${color}-big.svg)`;
+document.querySelector(".basket").classList.add(color);
+document.querySelector("body").classList.add(color);
 
 },{}],"igkur":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");

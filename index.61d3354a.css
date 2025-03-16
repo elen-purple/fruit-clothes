@@ -23,6 +23,21 @@ body {
   font-family: Irish Grover, system-ui;
 }
 
+body.red ::selection {
+  color: var(--beige);
+  background-color: var(--red);
+}
+
+body.blue ::selection {
+  color: var(--beige);
+  background-color: var(--blue);
+}
+
+body.green ::selection {
+  color: var(--beige);
+  background-color: var(--green);
+}
+
 img {
   width: 100%;
   height: auto;
