@@ -1,0 +1,25 @@
+{
+  "name": "fruit-clothes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://elen-purple.github.io/fruit-clothes/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3",
+    "parcel-transformer-hbs": "^1.0.4",
+    "svgo": "^3.3.2"
+  }
+}

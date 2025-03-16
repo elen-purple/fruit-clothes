@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "name": "shirt",
+    "price": 20,
+    "size": "s",
+    "color": "white",
+    "clothe": "linen"
+  },
+  {
+    "id": 1,
+    "name": "skirt",
+    "price": 18,
+    "size": "m",
+    "color": "red",
+    "clothe": "cotton"
+  },
+  {
+    "id": 2,
+    "name": "sweater",
+    "price": 21,
+    "size": "xs",
+    "color": "grey",
+    "clothe": "linen"
+  },
+  {
+    "id": 3,
+    "name": "jeans",
+    "price": 35,
+    "size": "l",
+    "color": "blue",
+    "clothe": "denim"
+  },
+  {
+    "id": 4,
+    "name": "jacket",
+    "price": 50,
+    "size": "m",
+    "color": "black",
+    "clothe": "leather"
+  },
+  {
+    "id": 5,
+    "name": "t-shirt",
+    "price": 15,
+    "size": "s",
+    "color": "green",
+    "clothe": "cotton"
+  },
+  {
+    "id": 6,
+    "name": "dress",
+    "price": 40,
+    "size": "m",
+    "color": "yellow",
+    "clothe": "silk"
+  },
+  {
+    "id": 7,
+    "name": "shorts",
+    "price": 25,
+    "size": "l",
+    "color": "beige",
+    "clothe": "linen"
+  },
+  {
+    "id": 8,
+    "name": "hoodie",
+    "price": 30,
+    "size": "xl",
+    "color": "navy",
+    "clothe": "fleece"
+  },
+  {
+    "id": 9,
+    "name": "scarf",
+    "price": 12,
+    "size": "one-size",
+    "color": "purple",
+    "clothe": "wool"
+  },
+  {
+    "id": 10,
+    "name": "blouse",
+    "price": 22,
+    "size": "s",
+    "color": "pink",
+    "clothe": "chiffon"
+  },
+  {
+    "id": 11,
+    "name": "coat",
+    "price": 60,
+    "size": "xl",
+    "color": "brown",
+    "clothe": "wool"
+  }
+]

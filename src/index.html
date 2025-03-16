@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./svg/fav-logo.svg" />
+    <title>Fruit Clothes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="header__link">
+        <svg class="" width="200" height="119">
+          <use href="./svg/icons.svg#logo"></use>
+        </svg>
+      </a>
+      <svg class="header__icon" width="776" height="64">
+        <use href="./svg/icons.svg#wave"></use>
+      </svg>
+      <button id="basket-open" class="header__btn">Basket</button>
+    </header>
+    <section class="clothes">
+      <h1 class="clothes__title">Our wardrobe</h1>
+      <ul class="clothes__list" id="clothes-list"></ul>
+    </section>
+    <div id="backdrop" class="backdrop is-hidden">
+      <div class="basket">
+        <button id="basket-close" class="basket__btn">
+          <svg class="basket__dagger" width="26" height="24">
+            <use href="./svg/icons.svg#dagger"></use>
+          </svg>
+        </button>
+        <h2 class="basket__title">Your basket</h2>
+        <ul id="basket-list" class="basket__list">
+          <p class="basket__result">There aren't any clothes</p>
+        </ul>
+      </div>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
