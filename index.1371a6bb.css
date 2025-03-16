@@ -1,0 +1,2 @@
+:root{--brown:#4d1d1d;--red:#a50202;--blue:#000150;--green:#4d7e51;--beige:#fff2d9}*{margin:0;padding:0}:focus{outline:none}body{scroll-behavior:smooth}img{width:100%;height:auto;line-height:0;display:block}a{text-decoration-line:none}ul{list-style-type:none}button{cursor:pointer;background-color:#0000;border:none;display:block}.item{background-color:var(--brown);width:200px;padding:3px}.item__wrapper{background-color:var(--beige);padding:0 16px}.item__subtext{justify-content:space-between;align-items:center;display:flex}
+/*# sourceMappingURL=index.1371a6bb.css.map */
